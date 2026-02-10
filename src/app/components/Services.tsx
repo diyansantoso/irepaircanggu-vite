@@ -48,7 +48,7 @@ export function Services() {
     <section id="services" className="py-16 sm:py-20 lg:py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
-        <div className="text-center mb-12 sm:mb-16">
+        <div data-aos="fade-up" data-aos-delay="100" className="text-center mb-12 sm:mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
             Our Services
           </h2>
@@ -58,7 +58,7 @@ export function Services() {
         </div>
 
         {/* Main Service Cards */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mb-16">
+        <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000" className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mb-16">
           {services.map((service, index) => {
             const Icon = service.icon;
             return (
@@ -98,7 +98,7 @@ export function Services() {
         </div>
 
         {/* Common Repairs */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000" className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {commonRepairs.map((repair, index) => {
             const Icon = repair.icon;
             return (

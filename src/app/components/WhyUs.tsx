@@ -36,7 +36,7 @@ const features = [
 export function WhyUs() {
   return (
     <section id="why-us" className="py-16 sm:py-20 lg:py-24 bg-gray-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-12 sm:mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
@@ -48,7 +48,7 @@ export function WhyUs() {
         </div>
 
         {/* Features Grid */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+        <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000" className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
           {features.map((feature, index) => {
             const Icon = feature.icon;
             return (
@@ -72,19 +72,19 @@ export function WhyUs() {
 
         {/* Stats */}
         <div className="mt-16 grid grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
-          <div className="text-center">
+          <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="1500" className="text-center">
             <div className="text-3xl sm:text-4xl font-bold text-blue-600 mb-2">10+</div>
             <div className="text-gray-600">Years Experience</div>
           </div>
-          <div className="text-center">
+          <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="2500" className="text-center">
             <div className="text-3xl sm:text-4xl font-bold text-blue-600 mb-2">5000+</div>
             <div className="text-gray-600">Devices Repaired</div>
           </div>
-          <div className="text-center">
+          <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="3000" className="text-center">
             <div className="text-3xl sm:text-4xl font-bold text-blue-600 mb-2">4.9</div>
             <div className="text-gray-600">Average Rating</div>
           </div>
-          <div className="text-center">
+          <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="3500" className="text-center">
             <div className="text-3xl sm:text-4xl font-bold text-blue-600 mb-2">24h</div>
             <div className="text-gray-600">Average Repair Time</div>
           </div>

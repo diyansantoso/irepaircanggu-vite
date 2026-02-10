@@ -4,9 +4,9 @@ import { ImageWithFallback } from './figma/ImageWithFallback';
 export function Contact() {
   return (
     <section id="contact" className="py-16 sm:py-20 lg:py-24 bg-gray-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div  className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
-        <div className="text-center mb-12 sm:mb-16">
+        <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000" className="text-center mb-12 sm:mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
             Get In Touch
           </h2>
@@ -15,10 +15,10 @@ export function Contact() {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12">
+        <div  className="grid lg:grid-cols-2 gap-8 lg:gap-12">
 
           {/* Contact Info & Image */}
-          <div className="space-y-6">
+          <div data-aos="fade-right" data-aos-delay="100" data-aos-duration="1500" className="space-y-6">
 
             {/* Contact Details */}
             <div className="bg-white p-6 sm:p-8 rounded-2xl shadow-lg space-y-6">
@@ -113,7 +113,7 @@ export function Contact() {
           </div>
 
           {/* Maps */}
-          <div className="space-y-6"> 
+          <div data-aos="fade-left" data-aos-delay="100" data-aos-duration="1500" className="space-y-6"> 
             <div className="bg-white p-6 sm:p-8 rounded-2xl shadow-lg">
               <h3 className="text-2xl font-semibold text-gray-900 mb-6">
                 Store Location

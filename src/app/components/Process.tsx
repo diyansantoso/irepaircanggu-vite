@@ -30,7 +30,7 @@ const steps = [
 export function Process() {
   return (
     <section id="process" className="py-16 sm:py-20 lg:py-24 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-12 sm:mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
@@ -42,7 +42,7 @@ export function Process() {
         </div>
 
         {/* Process Steps */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-6">
+        <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000" className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-6">
           {steps.map((step, index) => {
             const Icon = step.icon;
             return (
@@ -77,7 +77,7 @@ export function Process() {
         </div>
 
         {/* CTA */}
-        <div className="mt-12 text-center">
+        <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000" className="mt-12 text-center">
           <a
             href="#contact"
             className="inline-block px-8 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"

@@ -23,7 +23,7 @@ export function Hero() {
               </div>
               <div className="flex items-center gap-3 justify-center lg:justify-start">
                 <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0" />
-                <span className="text-gray-700">90-day warranty on all repairs</span>
+                <span className="text-gray-700">30-day warranty on all repairs</span>
               </div>
               <div className="flex items-center gap-3 justify-center lg:justify-start">
                 <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0" />

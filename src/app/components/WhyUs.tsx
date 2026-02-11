@@ -13,7 +13,7 @@ const features = [
   },
   {
     icon: Award,
-    title: '90-Day Warranty',
+    title: '30-Day Warranty',
     description: 'All repairs backed by our comprehensive 90-day warranty for peace of mind',
   },
   {

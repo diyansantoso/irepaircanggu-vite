@@ -95,7 +95,7 @@ export function Contact() {
                   WhatsApp
                 </a>
 
-                <a
+                {/* <a
                   href="https://t.me/irepair_canggu"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -107,7 +107,7 @@ export function Contact() {
                     <path d="M21.99 3.5L2.5 11.29 7.2 12.88 9 17.5s.26 1.04 1.3 1.15c1.04.1 1.88-.75 1.88-.75l3.72-2.73 4.83-6.66-1.1-.87z" fill="#0088cc"/>
                   </svg>
                   Telegram
-                </a>
+                </a> */}
               </div>
             </div>
           </div>

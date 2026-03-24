@@ -49,7 +49,7 @@ export function Contact() {
                 </div>
                 <div>
                   <div className="font-medium text-gray-900 mb-1">Phone</div>
-                  <div className="text-gray-600"><a href="https://wa.me/6287771514545" target="_blank" rel="noopener noreferrer">+62 822-2756-5452</a></div>
+                  <div className="text-gray-600"><a href="https://wa.me/6287771514545" target="_blank" rel="noopener noreferrer">087771514545</a></div>
                 </div>
               </div>
 

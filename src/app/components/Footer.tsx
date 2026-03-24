@@ -110,8 +110,8 @@ export function Footer() {
               <li>Jl. Batu Bolong</li>
               <li>Canggu, Bali 80361</li>
               <li>
-                <a href="https://wa.me/6282227565452" className="hover:text-blue-500 transition-colors">
-                  0822-2756-5452
+                <a href="https://wa.me/6287771514545" className="hover:text-blue-500 transition-colors">
+                  087771514545
                 </a>
               </li>
               {/* <li>

@@ -82,7 +82,7 @@ export function Contact() {
               {/* Social buttons */}
               <div className="mt-4 flex flex-col sm:flex-row sm:items-center sm:gap-3 gap-3">
                 <a
-                  href="https://wa.me/6282227565452"
+                  href="https://wa.me/6287771514545"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-2 px-4 py-2 rounded-lg bg-green-500 text-white font-medium hover:bg-green-600 transition-colors w-full sm:w-auto"

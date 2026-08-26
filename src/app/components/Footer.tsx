@@ -107,8 +107,8 @@ export function Footer() {
           <div>
             <h3 className="text-white font-semibold mb-4">Contact</h3>
             <ul className="space-y-2 text-sm">
-              <li>Jl. Batu Bolong</li>
-              <li>Canggu, Bali 80361</li>
+              <li>Jl. Kayu Tulang, Gg. Aruna Villa N No.3</li>
+              <li>Canggu, Kec. Kuta Utara, Kabupaten Badung, Bali 80361</li>
               <li>
                 <a href="https://wa.me/6287771514545" className="hover:text-blue-500 transition-colors">
                   087771514545

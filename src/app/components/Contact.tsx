@@ -35,8 +35,8 @@ export function Contact() {
                 <div>
                   <div className="font-medium text-gray-900 mb-1">Address</div>
                   <div className="text-gray-600">
-                    Jl. Batu Bolong<br />
-                    Canggu, Bali 80361
+                    Jl. Kayu Tulang, Gg. Aruna Villa N No.3<br />
+                    Canggu, Kec. Kuta Utara, Kabupaten Badung, Bali 80361
                   </div>
                 </div>
               </div>
